@@ -37,6 +37,19 @@ To install PayChain, follow these steps:
 
 
 2. Follow the installation instructions in the documentation for your specific environment.
+   
+>  Installation instructions
+---
+
+3. ```
+   git clone https://github.com/mirainiki/PayChain.git
+   cd PayChain
+   # Use the package manager you prefer, I use bun but will have npm here since it is more commonly used
+   npm install # or bun install
+   npm run dev # or bun run dev... I'm assuming "ts-node..." in the script is the entry point
+   
+---
+
 
 # Configuration
 
